@@ -104,7 +104,7 @@ Widget _rowButtons() {
       children: [
         ElevatedButton(
             style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.black87,
+                backgroundColor: Palette.primary,
                 fixedSize: const Size(152, 50),
                 padding: const EdgeInsets.symmetric(
                   vertical: 16,

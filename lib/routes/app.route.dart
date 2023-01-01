@@ -29,24 +29,20 @@ class AppRoutes {
       page: () => const Home(),
     ),
     GetPage(
-        name: notifications,
-        page: () => const NotificationScreen(),
-        transition: Transition.fade,
-        transitionDuration: const Duration(seconds: 1)),
+      name: notifications,
+      page: () => const NotificationScreen(),
+    ),
     GetPage(
-        name: auth,
-        page: () => const Auth(),
-        transition: Transition.fade,
-        transitionDuration: const Duration(seconds: 1)),
+      name: auth,
+      page: () => const Auth(),
+    ),
     GetPage(
-        name: login,
-        page: () => const Login(),
-        transition: Transition.fade,
-        transitionDuration: const Duration(seconds: 1)),
+      name: login,
+      page: () => const Login(),
+    ),
     GetPage(
-        name: signup,
-        page: () => const SignUp(),
-        transition: Transition.fade,
-        transitionDuration: const Duration(seconds: 1)),
+      name: signup,
+      page: () => const SignUp(),
+    ),
   ];
 }
